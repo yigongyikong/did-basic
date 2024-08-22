@@ -52,3 +52,11 @@ https://gngsn.tistory.com/96
 
 [root@fc3b49fc03e3:/workspaces/did-basic/01_cryptograph/03_rsa/ex3# go run rsa_verify.go]
 - rsa 방식을 통해 서명된 값을 검증합니다.
+
+[root@fc3b49fc03e3:/workspaces/did-basic/01_cryptograph/04_aries# go run aries.go]
+- hyperledger의 aries는 decentralized identity solutions and digital trust를 위한 toolkit이다.
+    https://www.hyperledger.org/projects/aries
+- VC를 보여주고 있다.
+- root@fc3b49fc03e3:/workspaces/did-basic# go get github.com/hyperledger/aries-framework-go/pkg/doc/verifiable
+- root@fc3b49fc03e3:/workspaces/did-basic# cd 01_cryptograph/04_aries/
+- root@fc3b49fc03e3:/workspaces/did-basic/01_cryptograph/04_aries# go run aries.go
